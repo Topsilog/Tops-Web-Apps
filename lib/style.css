@@ -1,0 +1,12 @@
+h1,
+p {
+    font-family: sans-serif;
+}
+
+div.awos {
+    border: 5px solid black;
+    height: 100px;
+    width: 500px;
+    background-color: blueviolet;
+    margin: 20px 0;
+}

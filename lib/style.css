@@ -1,10 +1,33 @@
+body {
+    position: relative;
+}
+
 .bg {
-    background-image: url('../images/KD7vXrY.jpg');
+    width: 100%;
     height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: -1;
+}
+
+.bg-img {
+    background-image: url('../images/KD7vXrY.jpg');
     background-size: cover;
-    background-attachment: fixed;
+    filter: grayscale(0.5);
+    height: 100%;
+}
+
+.header-content {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    color: #FFF;
+    text-align: center;
 }
 
 h1,
@@ -18,4 +41,5 @@ div.awos {
     width: 500px;
     background-color: blueviolet;
     margin: 20px 0;
+    position: relative;
 }
